@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>services</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Quicksand', sans-serif;
+        box-sizing: border-box;
+      }
+      html{
+        scroll-behavior: smooth;
+    }
+    .container {
+      height: 200px;
+      background: rgb(100, 70, 170);
+      border: solid;
+      text-align: center;
+      border-color: #3e71be;
+      border-width: 2px;
+      margin-bottom: 2rem;}
+
+      .a{color: darkgreen;}
+      /*.services-section{
+        background: url(https://i.ibb.co/QJyvzhs/bg.jpg);
+        background-size: cover;
+        padding: 60px 0; } */
+        body {
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      background-image: url(https://d33wubrfki0l68.cloudfront.net/8d79b89491cf9ef958be1386776dc937d39266be/1a630/img/particle_background.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color:white;
+    }
+    
+    .topnav {
+            width: 100% !important;
+            
+            overflow: hidden;
+          }
+          
+          
+          /* Style the links inside the navigation bar */
+          .topnav a {
+            float: left;
+            display: block;
+            color: rgba(247, 244, 241, 0.877);
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 100px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'Quicksand', sans-serif;
+          }
+          
+          /* Change the color of links on hover */
+          .topnav a:hover {
+            background-color: white;
+            color: rgb(0,162,232);
+            border-radius: 4px;
+            transition: 0.8s ease-in-out;
+          }
+          
+          /* Add an active class to highlight the current page */
+          .topnav a.active {
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+          }
+          
+          /* Hide the link that should open and close the topnav on small screens */
+          .topnav .icon {
+            display: none;
+          }
+          
+          
+          .wrapper {
+            width: 100%;
+            height: auto !important;
+            padding: 1em 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+          }
+      
+      .inner-width{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+        overflow: hidden;
+      }
+      .section-title{
+        text-align: center;
+        color: #ddd;
+        text-transform: uppercase;
+        font-size: 30px;
+      }
+      .border{
+        width: 160px;
+        height: 2px;
+        background: #82ccdd;
+        margin: 40px auto;
+      }
+      .services-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .service-box{
+        max-width: 33.33%;
+        padding: 10px;
+        text-align: center;
+        color: #ddd;
+        cursor: pointer;
+      }
+      .service-box a{
+        background: rgb(65, 41, 151);
+        display: block;
+        text-decoration: none;
+        margin:15px auto;
+        color: white;
+        max-width: 200px;
+        padding: 10px 0;
+        border-radius: 6px;
+        
+
+      }
+
+      .service-icon{
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border: 3px solid #82ccdd;
+        color: #82ccdd;
+        transform: rotate(45deg);
+        margin-bottom: 30px;
+        margin-top: 16px;
+        transition: 0.3s linear;
+      }
+      .service-icon i{
+        line-height: 70px;
+        transform: rotate(-45deg);
+        font-size: 26px;
+      }
+      .service-box:hover .service-icon{
+        background: #82ccdd;
+        color: #ddd;
+      }
+      .service-title{
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .service-desc{
+        font-size: 14px;
+      }
+      
+      @media screen and (max-width:960px) {
+        .service-box{
+          max-width: 45%;
+        }
+      }
+      
+      @media screen and (max-width:768px) {
+        .service-box{
+          max-width: 50%;
+        }
+      }
+      
+      @media screen and (max-width:480px) {
+        .service-box{
+          max-width: 100%;
+        }
+        .topnav {
+    width: 100% !important;
+    
+    overflow: hidden;
+  }
+  
+  
+ 
+}</style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="topnav" id="myTopnav">
+     <a href="welcome page.html" >Home</a>
+     <a href="about.html" >About</a>
+     <a href="staff.html">Staff</a>
+     <a href="services.html"class="active">Services</a>
+     <a href="contact.html">Contact</a>
+     </a>
+      </div>
+     <div class="services-section"> 
+
+      <div class="inner-width">
+        <h1 class="section-title">Our Services</h1>
+        <div class="border"></div>
+        <div class="services-container">
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="service-title">Web Designs</div>
+            <div class="service-desc">
+             
+Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. 
+            </div>
+            <a href="#sectionA">More Details</a>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="service-title">Web Development</div>
+            <div class="service-desc">
+              Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.
+            </div>
+            <a href="#sectionB">More Details</a>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-brush"></i>
+            </div>
+            <div class="service-title">Responsive Designs</div>
+            <div class="service-desc">
+              Responsive web design (RWD) is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it. .
+            </div>
+            <a href="#sectionC">More Details</a>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-object-ungroup"></i>
+            </div>
+            <div class="service-title">Edit Sections</div>
+            <div class="service-desc">
+             
+Sections on your site are the main areas that your customers will look for the information they need. Pages are the individual areas within each of those sections. By combining sections and pages, you wind up with the primary elements of your Web site.
+            </div>
+            <a href="#sectionD">More Details</a>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="service-title">Databases</div>
+            <div class="service-desc">
+              A Database Management System allows a person to organize, store, and retrieve data from a computer. ... Databases (or DBs) have played a very important part in the recent evolution of computers. 
+            </div>
+            <a href="#sectionE">More Details</a>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="service-title">Android</div>
+            <div class="service-desc">
+              Android began in 2003 as a project of the American technology company Android Inc., to develop an operating system for digital cameras. In 2004 the project changed to become an operating system for smartphones.
+            </div>
+            <a href="#sectionF">More Details</a>
+          </div>
+          <br><br><br>
+          <div class = "container">
+      <h2 id="sectionA"><u>WEB Design</u></h2>
+ <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+   The different areas of web design include web graphic design; user interface design (UI design); authoring,
+    including standardised code and proprietary software; user experience design (UX design); and search engine optimization.
+     Often many individuals will work in teams covering different aspects of the design process, although some designers will
+      cover them all.[1] The term "web design" is normally used to describe the design process relating to the front-end
+       (client side) design of a website including writing markup. Web design partially overlaps web engineering in the broader scope 
+       of web development. Web designers are expected to have an awareness of usability and if their role involves creating markup
+        then they are also expected to be up to date with web accessibility guidelines..</p> -->
+          </div>
+
+          <div class = "container">
+            <h2 id="sectionB"><u>WEB Development</u></h2>
+       <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great,
+        work fast and perform well with a seamless user experience. Web developers,
+        or 'devs', do this by using a variety of coding languages</p> -->
+                </div>
+
+                <div class = "container">
+                  <h2 id="sectionC"><u>Responsive Designs</u></h2>
+             <p>In the last few years, the number of mobile users and devices has grown
+              exponentially. As a result of this, providing a seamless, high-quality user experience on desktop, tablet,
+               and mobile is more important than ever. Responsive Web Design (RWD) is arguably one of the best ways to tackle the issues
+                that arise when designing for multiple devices.</p> -->
+                      </div>
+
+                      <div class = "container">
+                        <h2 id="sectionD"><u>Edit Sections</u></h2>
+                   <p>The HTML tag is used to define sections in a document. When you put your content on a web page, it may contains many chapters, headers, footers, or other sections on a web page that is why HTML <section> tag is used.
+
+                    HTML is a new tag introduced in HTML5..</p> -->
+                            </div>
+
+                            <div class = "container">
+                              <h2 id="sectionE"><u>Databases</u></h2>
+                         <p> A Database Management System allows a person to organize, store, and retrieve data from a computer.
+                          It is a way of communicating with a computer’s “stored memory.” In the very early years of computers,
+                           “punch cards” were used for input, output, and data storage. Punch cards offered a fast way to enter data, and to retrieve it.
+                            Herman Hollerith is given credit for adapting the punch cards used for weaving looms to act as the memory for a mechanical 
+                            tabulating machine, in 1890. Much later, databases came along.</p> -->
+                                  </div>
+
+
+                                  <div class = "container">
+                                    <h2 id="sectionF"><u>Android</u></h2>
+                               <p>Android, operating system for cellular telephones and tablet computers.
+                                Android began in 2003 as a project of the American technology company Android Inc.,
+                                 to develop an operating system for digital cameras. In 2004 the project changed to become an operating system for smartphones. 
+                                 Android Inc., was bought by the American search engine company Google Inc., in 2005. At Google, the Android team decided to base their 
+                                 project on Linux,
+                                an open source operating system for personal computers.</p> -->
+                                        </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
